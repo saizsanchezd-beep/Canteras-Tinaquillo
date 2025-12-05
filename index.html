@@ -672,15 +672,8 @@
         <div class="form-container">
             <div id="formMessage" class="form-message"></div>
 
-            <form id="quoteForm" action="https://api.web3forms.com/submit" method="POST">
-                <!-- Web3Forms Access Key - YA CONFIGURADA -->
-                <input type="hidden" name="access_key" value="d560368e-da20-42c4-baeb-8bb9442a8f3a">
-                
-                <!-- Configuración de redirección y spam protection -->
-                <input type="hidden" name="subject" value="Nueva Solicitud de Cotización - Canteras Tinaquillo">
-                <input type="hidden" name="from_name" value="Landing Page Canteras Tinaquillo">
-                <input type="hidden" name="redirect" value="https://web3forms.com/success">
-                <input type="checkbox" name="botcheck" style="display: none;">
+            <form name="cotizacion" method="POST" netlify>
+            
 
                 <div class="form-row">
                     <div class="form-group">
